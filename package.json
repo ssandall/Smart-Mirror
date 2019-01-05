@@ -1,0 +1,29 @@
+{
+  "name": "smart-mirror",
+  "version": "1.0.0",
+  "description": "Smart Mirror Summer Holiday Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssandall/Smart-Mirror.git"
+  },
+  "author": "Suriya Sandall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssandall/Smart-Mirror/issues"
+  },
+  "homepage": "https://github.com/ssandall/Smart-Mirror#readme",
+  "dependencies": {
+    "mongoose": "^5.4.1",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.3.0",
+    "restify-errors": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
